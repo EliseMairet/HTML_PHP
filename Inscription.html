@@ -1,4 +1,4 @@
-<!DOTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <title>Inscription</title>
@@ -21,20 +21,20 @@
             </ul>
             </nav>
 
-            <form> 
+            <form action="insert.php" method="GET"> 
             <fieldset>
                 <legend>Inscription</legend>
                 <label>Nom</label>
-                <input type="text" placeholder="Votre nom"/><br>
+                <input type="text" name="nom" placeholder="Votre nom"/><br>
 
                 <label>Prénom</label>
-                <input type="text" placeholder="Votre prénom"/><br>
+                <input type="text" name="prenom" placeholder="Votre prénom"/><br>
 
                 <label>Tel</label>
-                <input type="number" placeholder="Votre numéros de téléphone"/><br>
+                <input type="number" name="phone" placeholder="Votre numéros de téléphone"/><br>
 
                 <label>Email</label>
-                <input type="email" placeholder="Votre adresse email"/><br>
+                <input type="email" name="mail" placeholder="Votre adresse email"/><br>
 
                 <label>Sexe</label>
                 <input type="radio" name="gender" value="Homme"/>Homme
